@@ -1,0 +1,41 @@
+### Server runtime ###
+world/
+world_nether/
+world_the_end/
+logs/
+crash-reports/
+*.log
+
+### Mod/Plugin binaries ###
+mods/
+plugins/
+*.jar
+
+### Server files (runtime generated) ###
+server.properties
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+usercache.json
+eula.txt
+
+### IDE ###
+.idea/
+.vscode/
+*.iml
+
+### Cursor IDE ###
+.cursor/*
+!.cursor/rules/
+.cursorignore
+
+### OS files ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Backup ###
+backups/
+*.tar.gz
+*.zip
