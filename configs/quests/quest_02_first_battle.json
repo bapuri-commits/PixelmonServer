@@ -1,0 +1,34 @@
+{
+  "weight": 0,
+  "abandonable": false,
+  "repeatable": false,
+  "color": {
+    "r": 255,
+    "g": 100,
+    "b": 50
+  },
+  "activeStage": 0,
+  "stages": [
+    {
+      "stage": 0,
+      "nextStage": -1,
+      "icon": "EXCLAMATION_MARK",
+      "objectives": [
+        "QUERY quest_01_first_catch",
+        "POKEMON_DEFEAT_NPC any 3"
+      ],
+      "actions": [
+        "COMMAND give %player% pixelmon:great_ball 10",
+        "COMMAND give %player% pixelmon:rare_candy 3",
+        "COMMAND givemoney %player% 1000"
+      ]
+    }
+  ],
+  "strings": {
+    "name": "First Challenge",
+    "desc-0": "Defeat 3 NPC trainers to sharpen your skills!",
+    "desc-X": "You proved your strength against NPC trainers!",
+    "stage-0-0": "Complete the First Catch quest first.",
+    "stage-0-1": "Defeat 3 NPC Trainers in battle."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "weight": 0,
+  "abandonable": false,
+  "repeatable": false,
+  "color": {
+    "r": 255,
+    "g": 68,
+    "b": 43
+  },
+  "activeStage": 0,
+  "stages": [
+    {
+      "stage": 0,
+      "nextStage": -1,
+      "icon": "FOUR_POINTED_STAR",
+      "objectives": [
+        "QUERY quest_02_first_battle",
+        "ITEM_HAS pixelmon:badge 1"
+      ],
+      "actions": [
+        "COMMAND give %player% pixelmon:tm 1",
+        "COMMAND givemoney %player% 2000"
+      ]
+    }
+  ],
+  "strings": {
+    "name": "Badge of Fire",
+    "desc-0": "Challenge the Fire Gym and earn your first badge!",
+    "desc-X": "You earned the Fire Badge! The Water Gym awaits.",
+    "stage-0-0": "Complete the First Challenge quest.",
+    "stage-0-1": "Defeat the Fire Gym Leader and earn a badge."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "weight": 100,
+  "abandonable": false,
+  "repeatable": false,
+  "color": {
+    "r": 255,
+    "g": 200,
+    "b": 0
+  },
+  "activeStage": 0,
+  "stages": [
+    {
+      "stage": 0,
+      "nextStage": -1,
+      "icon": "POKEBALL",
+      "objectives": [
+        "POKEMON_CAPTURE any 3"
+      ],
+      "actions": [
+        "COMMAND give %player% pixelmon:poke_ball 20",
+        "COMMAND givemoney %player% 500"
+      ]
+    }
+  ],
+  "strings": {
+    "name": "First Catch",
+    "desc-0": "Catch 3 wild Pokemon to prove yourself as a trainer!",
+    "desc-X": "You caught your first Pokemon! Here are some Poke Balls as a reward.",
+    "stage-0-0": "Catch 3 wild Pokemon! Any species will do."
+  }
+}
